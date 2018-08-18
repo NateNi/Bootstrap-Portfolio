@@ -1,0 +1,44 @@
+body{
+    background-color: #6b8cff;
+}
+
+.back-level {
+    /*height: 420px;*/
+    width: 100%;
+}
+
+#puzzle {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    text-shadow: 2px 2px white;
+    margin-bottom: 20px;
+}
+
+#game-info {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    text-shadow: 2px 2px white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 0px;
+    text-shadow: 2px 2px white;
+    font-size: 40px;
+    padding: 20px;
+}
+
+h2 {
+    float:left;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 2px 2px white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+

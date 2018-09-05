@@ -1,0 +1,107 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+}
+
+.container {
+    background-color: white;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border: 5px solid red;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+    margin-top: 20px;
+}
+
+.question-number {
+    font-family: 'Audiowide', cursive;
+    font-size: 20px;
+    border-bottom: 2px solid grey;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.question-text {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.answers {
+    display: inline-block;
+}
+
+.centering {
+    text-align: center;
+}
+
+.button-orientation {
+    text-align: center;
+    margin: 20px;
+}
+
+.result {
+    text-align: center;
+    font-size: 18px;
+}
+
+.timer {
+    float: right;
+    padding-right: 14px;
+}
+
+.score {
+    padding-left:20px;
+}
+
+.spacing {
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.progress {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#submit {
+    font-family: 'Audiowide', cursive;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.timer {
+    font-weight: bold;
+}
+
+.wins {
+    font-weight: bold;
+}
+
+.losses {
+    font-weight: bold;
+}
+
+button:hover {
+    border: 3px solid black;
+}
+
+input[type="radio"] {
+    margin-right: 6px;
+  }
+
+#startButton {
+    font-family: 'Audiowide', cursive;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.start {
+    text-align: center;
+}

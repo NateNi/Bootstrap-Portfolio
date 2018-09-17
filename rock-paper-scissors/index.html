@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.0/firebase.js"></script>
+    <script src="assets/javascript/app.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Rock Paper Scissors</title>
+</head>
+
+<body>
+    <h1>Rock, Paper, Scissors!</h1>
+    <div id="container">
+        <h3 id="wins">Wins: 0</h3>
+        <h3 id="losses">Losses: 0</h3>
+        <h3 id="ties">Ties: 0</h3>
+        <form>
+            Name:
+            <input type="text" id="player-name">
+            <br>
+        </form>
+        <div class="choices">
+            <div class="choice-three">
+                <input type="radio" name="select" value="2"> Scissors
+            </div>
+            <div class="choice-one">
+                <input type="radio" name="select" value="0"> Rock
+            </div>
+            <div class="choice-two">
+                <input type="radio" name="select" value="1"> Paper
+            </div>
+
+        </div>
+
+        <img src="assets/images/rps.png" alt="RPS">
+
+
+
+        <div id = "butt">
+                <button id="submit-move" type="submit">Submit</button>
+        </div>
+        
+        <div id="status"></div>
+        <div id="result"></div>
+        <div id="play-again"></div>
+    </div>
+
+</body>
+
+</html>

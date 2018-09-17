@@ -1,0 +1,70 @@
+
+h1 {
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+h3 {
+    margin: 0px;
+}
+
+#container {
+    border: 3px solid black;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+}
+
+form {
+    text-align: center;
+}
+
+.choice-one {
+    float: left;
+    padding-left: 50px;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.choice-two {
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.choice-three {
+    float: right;
+    padding-right: 50px;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.choices {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#butt {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    padding: 20px;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 30px;
+}
+
+#result {
+    text-align: center;
+}
+
+#status {
+    text-align: center;
+    margin: 15px;
+}
+
+#play-again {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}

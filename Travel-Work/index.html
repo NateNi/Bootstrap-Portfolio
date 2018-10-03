@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Travel & Work</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpg" href="assets/images/favicon.ico">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Importing CSS -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <!-- Importing Javascript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="teal darken-4">
+        <div class="nav-wrapper">
+            <div class="container">
+                <a href="#" data-activates="slide-out" class="left button-for-nav"><i class="material-icons">menu</i></a>
+                <a href="index.html" class="brand-logo center">
+                    Travel & Work
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li> <a class="teal darken-2 waves-effect waves-light btn" id="quickstart-sign-in">
+                            <i class="fa fa-github-alt white-text" aria-hidden="true" style="line-height: 2.0;"></i>
+                            Sign in with github
+                        </a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+    <ul id="slide-out" class="side-nav">
+        <li><div class="user-view">
+          <div class="background navbarbg">
+          </div>
+          <a href="#!user"><img class="circle" id="auth-avatar" src="https://www.gravatar.com/avatar/205e460b479e2e5b48dsc07710c08d50?d=mm&s=150"></a>
+          <a href="#!name"><span class="white-text name" id="auth-name">Dear User</span></a>
+          <a href="#!email"><span class="white-text email" id="auth-status">Please login</span></a>
+        </div></li>
+      </ul>
+    <div class="section no-pad-bot" id="index-banner">
+        <div class="container">
+            <h1 class="header center white-text">Let's travel <span class="hero-type">Anywhere</span></h1>
+            <div class="row center">
+                <h5 class="header col s12 light white-text">Travel & Explorer the world while working</h5>
+            </div>
+        </div>
+    </div>
+    <div id="jobs-container" class="container">
+        <br>
+        <br>
+        <div class="row">
+            <div class="col s12">
+                <h3 class="center">
+                    <a id="software-selected" class="dropdown-trigger btn" href="#jobs-container" data-beloworigin="true"
+                        data-activates="dropdown-software">Javascript</a>
+                    jobs in
+                    <a id="location-selected" class="dropdown-trigger btn" href="#jobs-container" data-beloworigin="true"
+                        data-activates="dropdown-state">Austin</a>
+                </h3>
+                <ul id='dropdown-software' class='dropdown-content'>
+                    <li><a href="#!" class="teal-text">Select Software</a></li>
+                    <li class="divider"></li>
+                </ul>
+                <ul id='dropdown-state' class='dropdown-content teal-text'>
+                    <li><a href="#!" class="teal-text">Select State</a></li>
+                    <li class="divider"></li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="row" id="joblist">
+        </div>
+        <br>
+        <br>
+    </div>
+    <div class="grey lighten-4 services">
+        <div class="container">
+            <div class="row">
+
+                <div class="col s12 center">
+                    <br>
+                    <h4 class="teal-text text-darken-4">Find a job anywhere in the world!</h4>
+
+                    <p class="teal-text text-darken-4 flow-text">We help you identify the job available in each state.
+                        You can find job & travel based on
+                        the state you want to go & explorer. You can do short term projects & keep traveling</p>
+                </div>
+
+                <div class="col s4">
+                    <div class="center promo promo-example">
+                        <i class="material-icons">map</i>
+                        <h5 class="teal-text text-darken-4">Statastics</h5>
+                        <p class="light center">Statastics based on job market in each state.</p>
+                    </div>
+                </div>
+                <div class="col s4">
+                    <div class="center promo promo-example">
+                        <i class="material-icons">card_travel</i>
+                        <h5 class="teal-text text-darken-4">Find Jobs</h5>
+                        <p class="light center">Access to every job in the country.</p>
+                    </div>
+                </div>
+                <div class="col s4">
+                    <div class="center promo promo-example">
+                        <i class="material-icons =">add_alert</i>
+                        <h5 class="teal-text text-darken-4">Get Alerts</h5>
+                        <p class="light center">Get alerts when you find the perfect job!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="section footer-cta teal darken-5">
+        <div class="container">
+            <br><br>
+            <div class="row center">
+                <div class="col s12">
+                    <p class="flow-text light white-text">We are currently helping those people who want to find a job
+                        in their dream state & explorer the world.
+                        <br>
+                        Find a career you'll love in a city you want to go.</p>
+                </div>
+            </div>
+            <div class="row center">
+                <a href="jobs.html" class="btn-large teal darken-3 waves-effect waves-light text-upper">
+                    Get Started</a>
+            </div>
+            <br><br>
+
+        </div>
+    </div>
+
+
+    <div class="parallax-container">
+        <div class="parallax"><img src="assets/images/vacations1.jpg"></div>
+    </div>
+    <footer class="page-footer teal darken-3">
+        <div class="container">
+            <div class="row center">
+                <div class="col s12">
+                    <p class="flow-text light white-text">
+                        <h3>Travel & Work</h3>
+                        <br>
+                        We are passinate about IT Professionals & travelling enthuastics to travel & find work anywhere
+                        in th world.
+                        <br>
+                        We focus on helping people find jobs & travel at the same time.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright white-text teal darken-4">
+            <div class="container center">
+                © 2018 Travel & Work
+            </div>
+        </div>
+    </footer>
+    <script>
+        $(document).ready(function () {
+            $('.parallax').parallax();
+            $('.dropdown-trigger').dropdown();
+            $(".button-for-nav").sideNav({
+                menuWidth: 270
+            });
+        });
+    </script>
+    
+
+    <script src="https://www.gstatic.com/firebasejs/5.5.1/firebase.js"></script>
+    <script src="assets/javascript/ssn.js"></script>
+    <script src="assets/javascript/typed.js"></script>
+    <script src="assets/javascript/jobs.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126697287-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-126697287-1');
+    </script>
+</body>
+
+</html>

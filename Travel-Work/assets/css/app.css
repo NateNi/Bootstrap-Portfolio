@@ -1,0 +1,72 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#index-banner {
+    background: #000000;
+    background-image:  url("../images/bg.jpeg");
+    background-image: linear-gradient(rgba(77, 182, 172,0.5), rgba(77, 182, 172,0.7)),url("../images/bg.jpeg");
+    background-size: cover;
+    padding: 100px 0px;
+}
+.text-upper {
+    text-transform: uppercase;
+}
+.services {
+    padding: 65px 0px;
+}
+.navbarbg{
+    background-image: linear-gradient(rgba(77, 182, 172,0.5), rgba(77, 182, 172,0.7)),url("../images/nav-bg.png");
+}
+.logo {
+    max-height: 55px;
+}
+#map_canvas {
+    z-index: -1;
+    position: fixed !important;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 100vw;
+}
+div#map_canvas {
+    position: fixed !important;
+    top: 0;
+    z-index: -2;
+    height: 100vh !important;
+}
+
+.promo i {
+    margin: 40px 0;
+    color: #004d40;
+    font-size: 5rem;
+    display: block;
+}
+.parallax img {
+    max-width: 100%;
+}
+footer.page-footer {
+    margin-top: 0;
+}
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 1s infinite;
+    -moz-animation: blink 1s infinite;
+    animation: blink 1s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
